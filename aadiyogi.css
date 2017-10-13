@@ -1,0 +1,67 @@
+
+/* defining the colour,font syle and size*/
+body {
+	background-color: #f2f2f2;
+	font-family: Helvetica,arial,san-serif,verdana;
+	font-size: 92%;
+	padding-left: 10px;
+}
+.header-1 {
+	background-color: white;
+	background: -webkit-linear-gradient(top,white,#f2f2f2);
+}
+.header-2 {
+	background-color: white;
+	background: -webkit-linear-gradient(top,#f2f2f2,white);
+}
+
+input {
+	float: right;
+}
+
+ h1 {
+	border-bottom: 4px groove white;
+	margin-bottom: 5px;
+	text-align: left;
+	font-family: 'Acme', sans-serif;
+}
+ div {
+	border-style: groove;
+	border-radius: none;
+	float: right;
+	background-color: #d9d9d9;
+}
+ .table-1 {
+ 	border-style: solid;
+ 	margin-top: 15px;
+ }
+
+ h4 {
+ 	text-align:right;
+ 	margin-right: 120px;
+ }
+ article::first-letter{
+ 	font-size: 150%;
+ 	font-weight: bold;
+ }
+ img:hover{
+ 	opacity: 0.5;
+ }
+
+ button {
+ 	float: right;
+ }
+ article {
+ 	border-style: inset;
+ 
+ }
+ .color-2 {
+ 	background-color: #d9d9d9;
+ }
+ footer {
+ 	background-color: white;
+ }
+ p{
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
